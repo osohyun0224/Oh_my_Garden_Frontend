@@ -6,6 +6,7 @@
 ## 👩🏻‍💻 Dev Team ✨
 #### Description
 - 백엔드 이해를 높이고 싶어하는 학생 개발자와 그런 개발자를 도와주고 싶어하는ㅋㅋ❤️ 의학과 학생이 PM을 맡아 작업한 팀 프로젝트 입니다.
+
 |                                  Developer                                      |                                      PM                                       |
 | :------------------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
 | <img width="160px" src="https://github.com/osohyun0224/Oh_my_Garden/assets/53892427/c46c109d-ddb5-4c3e-becf-f00fdd115c84" /> | <img width="160px" src="https://github.com/osohyun0224/Oh_my_Garden/assets/53892427/d4430730-500d-4794-b15c-bf1a0731fa2a" /> |
