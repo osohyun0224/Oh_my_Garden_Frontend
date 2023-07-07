@@ -5,7 +5,7 @@
   padding: 20px;
   background-color: #f5f5f5;
   font-family: 'Dovemayo_gothic';
-  font-size: 30px;
+  font-size: 13px;
 
   .menu-left,
   .menu-right {
@@ -17,10 +17,21 @@
     a {
       text-decoration: none;
       color: inherit; 
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
     }
 
     a.gopro-link {
       color: green;
+    }
+
+    a.signup-link {
+      background-color: #CBE6B7;  // Adjust this to the specific light green you want
+    }
+
+    a.mypage-link {
+      background-color: #86DE51; // Adjust this to the specific dark green you want
     }
   }
 

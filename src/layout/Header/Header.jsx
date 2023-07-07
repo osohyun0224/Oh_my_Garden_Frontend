@@ -18,9 +18,9 @@ const Header = () => {
       </div>
 
       <div className="menu-right">
-        <Link to="/signup">회원가입</Link>
-        <Link to="/login">로그인</Link>
-        <Link to="/mypage">My Page</Link>
+        <Link to="/login">Login</Link>
+        <Link to="/signup" className="signup-link">Sign Up</Link>
+        <Link to="/mypage" className="mypage-link">My Page</Link>
       </div>
     </div>
   );
