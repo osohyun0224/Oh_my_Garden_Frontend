@@ -10,11 +10,13 @@ import MyPage from './pages/Member/MyPage';
 import Home from './pages/Home';
 import Header from './layout/Header/Header';
 import Footer from './layout/Footer/Footer';
+import Background from './pages/Background';
 
 const App = () => {
   return (
     <Router>
       <Header />
+      <Background />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/insertinfo" element={<InsertInfo />} />
