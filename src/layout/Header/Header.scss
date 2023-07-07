@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.header .menu-left,
+.header .menu-right {
+  display: flex;
+  gap: 20px;
+  color: black;
+}
+
+.header img {
+  height: 50px;
+}
