@@ -4,20 +4,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed; // Footer를 고정 위치로 설정
   bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   box-sizing: border-box;
-  font-family: 'Dovemayo_gothic';
+  font-family: "Dovemayo_gothic";
   font-size: 13px;
 
   h3 {
     margin: 0;
-    font-family: 'Dovemayo_gothic';
+    font-family: "Dovemayo_gothic";
   }
 
   p {
     margin: 0;
-    font-family: 'Dovemayo_gothic';
+    font-family: "Dovemayo_gothic";
   }
 }
