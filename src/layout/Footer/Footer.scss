@@ -7,12 +7,17 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+  box-sizing: border-box;
+  font-family: 'Dovemayo_gothic';
+  font-size: 20px;
 
   h3 {
     margin: 0;
+    font-family: 'Dovemayo_gothic';
   }
 
   p {
     margin: 0;
+    font-family: 'Dovemayo_gothic';
   }
 }
