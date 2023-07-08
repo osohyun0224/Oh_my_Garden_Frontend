@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const FooterWrapper = styled.div`
+const StyledFooter = styled.div`
   background-color: gray;
   height: 60px;
   display: flex;
@@ -29,14 +29,14 @@ const FooterWrapper = styled.div`
 
 const Footer = () => {
   return (
-    <FooterWrapper>
+    <StyledFooter>
       <h3>
         Dev Team "Oh, my Garden🌿"
         <br />
         Developer. Sohyun.O / PM. Deuni.K <br />
         Contact Us @iamsounii_ & 01067756976
       </h3>
-    </FooterWrapper>
+    </StyledFooter>
   );
 };
 
