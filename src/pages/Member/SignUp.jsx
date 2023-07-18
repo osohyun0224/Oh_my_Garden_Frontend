@@ -38,12 +38,18 @@ const Button = styled.button`
         background-color: green;
     }
 `;
+const Title = styled.h1`
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+`;
 
-function SignupForm() {
+function Signup() {
     const [form, setForm] = useState({
         name: "",
         email: "",
-        password: ""
+        password: "",
+        verificationCode: "" 
     });
 
     const handleChange = e => {
@@ -53,6 +59,10 @@ function SignupForm() {
         });
     };
 
+    const handleVerification = e => {
+      e.preventDefault();
+
+  };
     const handleSubmit = e => {
         e.preventDefault();
         console.log(form);
@@ -61,8 +71,12 @@ function SignupForm() {
     return (
         <FormContain>
             <Form onSubmit={handleSubmit}>
+            <Title>Sign Up</Title>
+            <p align="center">회원가입을 진행해주세요:)</p>
                 <Input name="name" type="text" placeholder="Name" value={form.name} onChange={handleChange} />
                 <Input name="email" type="email" placeholder="Email" value={form.email} onChange={handleChange} />
+                <Button onClick={handleVerification}>메일 인증하기</Button> 
+                <Input name="verificationCode" type="text" placeholder="Verification Code" value={form.verificationCode} onChange={handleChange} />
                 <Input name="username" type="text" placeholder="Username" value={form.username} onChange={handleChange} />
                 <Input name="password" type="password" placeholder="Password" value={form.password} onChange={handleChange} />
                 <Button type="submit">Sign Up</Button>
@@ -71,4 +85,4 @@ function SignupForm() {
     );
 }
 
-export default SignupForm;
+export default Signup;
