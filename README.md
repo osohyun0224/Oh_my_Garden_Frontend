@@ -2,7 +2,15 @@
 <div align ="center">
 <img width="500px" src="https://github.com/osohyun0224/Oh_my_Garden/assets/53892427/39133c1e-cb8c-4121-8729-dcb2045e8a5f" />
 </div>
- 
+
+## Dev Team 🌿
+|                                  Developer                                      |                                      PM                                       |
+| :------------------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
+| <img width="160px" src="https://github.com/osohyun0224/Oh_my_Garden/assets/53892427/c46c109d-ddb5-4c3e-becf-f00fdd115c84" /> | <img width="160px" src="https://github.com/osohyun0224/Oh_my_Garden/assets/53892427/d4430730-500d-4794-b15c-bf1a0731fa2a" /> |
+|                  [@osohyun0224](https://github.com/osohyun0224)                  |                 [@G_K]( )             |
+|                          컴퓨터공학과 4학년 🫢                     |                     의학과 2학년 🌿                    |
+
+
 #### Description "이 프로젝트는요,,,ㅎㅎ"
 - 주니어 프론트 개발자의 React 개발하면서 모든 확장 프레임워크, 라이브러리를 거의 다 써보면서 공부하는 프로젝트 입니다.
 - 백엔드의 이해를 높이기 위해 Spring을 차근차근 시작하며 배우고 적용할 생각입니다.
